@@ -336,6 +336,9 @@ const Title = () => <div className='title'>
 </div>
 
 export default () => <div className="app">
+    <Head>
+        <title>Lobby Together › Robert Aderholt › NO on Securing our Agriculture and Food Act (H.R. 1238)</title>
+    </Head>
     <Title/>
     <div className="wrap">
         <Header 
