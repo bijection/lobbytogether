@@ -11,6 +11,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && next export && echo 'www.lobbytogether.org' > out/CNAME && cp out/_error/index.html out/404.html && gh-pages -d out"
+    "deploy": "next build && next export && echo 'www.lobbytogether.org' > out/CNAME && cp out/_error/index.html out/404.html && touch out/.nojekyll && gh-pages -d out"
   }
 }
