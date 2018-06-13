@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import ReactDisqusThread from 'react-disqus-thread'
+// import ReactDisqusThread from 'react-disqus-thread'
 
 const hilight = '#48f'
 const possesive = {
