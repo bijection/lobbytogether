@@ -110,7 +110,7 @@ const Actions = ({pledged, goal, backers, daysleft, senator, vote, sex, number})
         }
         .back {
             padding: 20px 0;
-            text-align: center
+            text-align: center;
             background: ${hilight};
             color: #fff;
             border-radius: 5px;
